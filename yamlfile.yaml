@@ -1,0 +1,86 @@
+name: Moayed
+
+age: 30
+salary: 500.90
+is_active: true
+birth_date: 2002-09-23
+employment_date: 2025-02-01T14:30:00Z
+direct_manager: Moustafa
+
+serial_number: "0050"
+regex: "^[A-Za-z]+:\\s"
+
+message: "Hello\nAhmed" # Hello
+                        # Ahmed
+
+path: "C:\\Users\\Admin"
+quote: "it's YAML"
+
+s_message: 'Hello\nWorld!' # Hello\nWorld!
+s_path: 'C:\Users\Admin'
+s_quote: 'It''s YAML' # It's YAML
+
+long_message: |
+  Hello
+  Moayed
+  How are you? 
+# Hello
+# Moayed
+# How are you? 
+
+
+folded_message: >
+  Hello
+  Moayed
+  How are you? 
+# Hello Moayed How are you?
+
+folded_message_with_line: >
+  Hello
+  Moayed
+
+  How are you? 
+# Hello Moayed
+# How are you?
+
+
+employee:
+  name: Moayed
+  age: 24
+  contact:
+    email: test@gmail.com
+
+
+employees:
+  - name: Moayed
+    age: 24
+    contact:
+      email: test@gmail.com
+  - name: Sarah 
+    age: 20
+    contact:
+      email: test@gmail.com
+  - name: jamal
+    age: 24
+    contact:
+      email: test@gmail.com
+
+
+servers: 
+  production: 
+    - host: prod1.example.com
+      ip: 192.168.1.10
+    - host: prod2.example.com
+      ip: 192.168.1.11
+  staging:
+    - host: stag1.example.com
+      ip: 192.168.1.12
+    - host: stag2.example.com
+      ip: 192.168.1.13
+  development:
+    - host: dev1.example.com
+      ip: 192.168.1.14
+    - host: dev2.example.com
+      ip: 192.168.1.15
+      
+
