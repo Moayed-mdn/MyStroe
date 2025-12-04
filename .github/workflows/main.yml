@@ -10,6 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps: # Map
       - name: Print a welcome message # List
-        run: echo"Welcome to our first Github action workflow"
+        run: echo "Welcome to our first Github action workflow"
         
   
