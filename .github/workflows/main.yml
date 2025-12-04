@@ -1,6 +1,6 @@
 name: First Workflow 
 
-
+age: 23
 on:
   push:
     branches:
@@ -12,6 +12,6 @@ jobs:
       - name: Print a welcome message # List
         run: |
           echo "Welcome to our first Github action workflow"
-          echo "Second echo"
+          echo "Second echo $age"
         
   
